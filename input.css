@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-bg {
+  background: linear-gradient(
+    142deg,
+    rgba(51, 211, 94, 1) 0%,
+    rgba(42, 182, 217, 1) 100%
+  );
+}
+
+.heroDesktop {
+  background: url(../images/bg-intro-desktop.svg);
+  -webkit-background-size: cover;
+
+  background-size: cover;
+  /* background-position: center top; */
+  height: 950px;
+  width: 950px;
+}
